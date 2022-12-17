@@ -37,10 +37,10 @@ const routes = [
             meta:{title:'门户管理'},
         },
         {
-            path:'/edit',
-            name:'edit',
-            component:()=>import('@/views/edit.vue'),
-            meta:{title:'编辑'},
+            path:'/AiLabel',
+            name:'AiLabel',
+            component:()=>import('@/views/task/AiLabel.vue'),
+            meta:{title:'标注任务'},
         }
     ]
   },
