@@ -449,9 +449,7 @@
             //切换上一张图片
             //标注===============================
             goback(){
-                this.$emit('oncloseApprovalMarkDialog')
-                this.imgShowArr = []
-                this.totalImg = 1
+                this.$router.go('-1')
             },
             getmode(mode){
                 var that = this;
